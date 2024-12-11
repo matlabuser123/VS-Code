@@ -1,7 +1,18 @@
-source scripts/05_logging.sh
-bash scripts/01_update_system.sh
-bash scripts/02_add_repo.sh
-bash scripts/03_install_vs_code.sh
-bash scripts/04_clean_up.sh
-bash scripts/06_setup_extensions.sh
-bash scripts/07_configure_layout.sh
+#!/bin/bash
+
+# Logging setup
+source ./scripts/05_logging.sh
+
+log_message "Starting VS Code installation process."
+
+# Check prerequisites
+bash ./scripts/01_check_prerequisites.sh
+
+# Update system and install dependencies
+bash ./scripts/02_add_repo.sh
+bash ./scripts/03_install_vs_code.sh
+
+# Finalize the installation
+bash ./scripts/04_finalize_installation.sh
+
+log_message "Installation completed successfully."

@@ -1,4 +1,4 @@
 {
-  "workbench.editor.showTabs": true,
-  "workbench.sideBar.location": "left"
+  "workbench.editor.layout": "split",
+  "terminal.integrated.bottomPanel": true
 }

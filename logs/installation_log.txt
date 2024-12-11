@@ -1,2 +1,8 @@
 Wed 11 Dec 2024 13:57:06 AEST - Starting installation process
 Wed 11 Dec 2024 13:59:10 AEST - Installation completed successfully
+2024-12-11 14:15:25 - Starting VS Code installation...
+2024-12-11 14:15:56 - VS Code installed successfully.
+2024-12-11 14:16:15 - VS Code setup complete.
+Wed 11 Dec 2024 14:21:57 AEST: VS Code installed successfully!
+Wed 11 Dec 2024 14:26:22 AEST: Starting installation process
+Wed 11 Dec 2024 14:26:44 AEST: VS Code installed successfully!

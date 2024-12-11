@@ -1,5 +1,9 @@
-[
-  "ms-python.python",
-  "ms-vscode.cpptools",
-  "dbaeumer.vscode-eslint"
-]
+{
+  "extensions": [
+    "ms-python.python",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ms-azuretools.vscode-docker",
+    "eamodio.gitlens"
+  ]
+}
